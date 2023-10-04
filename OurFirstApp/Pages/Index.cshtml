@@ -1,0 +1,22 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h5>@Model.Message</h5>
+    <br/>
+    <hr/>
+    <h3>Week 6 Lab Description</h3>
+    <p>
+        On the main homepage, under "Hello World", add 1 thing you want to learn when it comes to Active Server Page Development.
+    </p>
+</div>
+<div class="text-left">
+    <hr/>
+    <br/>
+    <p>@Model.Lab6WantToLearn</p>
+</div>
